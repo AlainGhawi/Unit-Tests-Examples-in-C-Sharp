@@ -1,0 +1,57 @@
+# .NET Framework
+##################
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.cache
+*.pdb
+*.dll.refresh
+*.exe.manifest
+bin/
+obj/
+
+# ReSharper files
+_ReSharper.*
+
+# NuGet
+packages/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Roslyn analyzer cache
+.vsconfig.cache
+
+# User-specific files
+*.sln.docstates
+*.suo
+*.userprefs
+
+# Test Results
+TestResults/
+
+# Misc
+[Tt]humbs.db
+*.log
+*.vsix
+*.nupkg
+*.pfx
+*.snk
+*.publishsettings
+*.cache
+
+# Exclude specific files
+app.config
+Web.config
+Web.Debug.config
+Web.Release.config
+*.csproj.user
+*.xproj.user
