@@ -9,9 +9,25 @@ namespace TestNinja.Mocking
 {
     public class VideoService
     {
+        //You can pass the class FileReader through 3 ways: Method Parameters, Properties, and Constructor
+        //Method parameters (not all DI frameworks can inject using this method)
+        //public string ReadVideoTitle(IFileReader fileReader)
+        //{
+        //    var str = fileReader.Read("video.txt");
+        //    var video = JsonConvert.DeserializeObject<Video>(str);
+        //    if (video == null)
+        //        return "Error parsing the video.";
+        //    return video.Title;
+        //}
+
+        //Constructor      
+
+        private IFileReader _fileReader;
+        public VideoService(IFileReader fileReader = null) => _fileReader = fileReader ?? new FileReader();
+
         public string ReadVideoTitle()
         {
-            var str = File.ReadAllText("video.txt");
+            var str = _fileReader.Read("video.txt");
             var video = JsonConvert.DeserializeObject<Video>(str);
             if (video == null)
                 return "Error parsing the video.";
