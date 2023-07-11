@@ -9,14 +9,30 @@ namespace TestNinja.UnitTests
         //Name your test using the following convention:
         //[MethodName]_[Scenario]_[ExpectedBehavior]
 
+        //SetUp
+        private ErrorLogger _logger;
+
+        [SetUp]
+        public void SetUp()
+        {
+            _logger = new ErrorLogger();
+        }
+
         [Test]
         public void Log_WhenCalled_SetTheLastErrorProperty()
         {
-            var logger = new ErrorLogger();
+            _logger.Log("Test error");
 
-            logger.Log("Test error");
+            Assert.That(_logger.LastError, Is.EqualTo("Test error"));
+        }
 
-            Assert.That(logger.LastError, Is.EqualTo("Test error"));
+        [Test]
+        [TestCase(null)]
+        [TestCase("")]
+        [TestCase(" ")]
+        public void Log_InvalidError_ThrowArgumentNullException(string error)
+        {
+            Assert.That(() => _logger.Log(error), Throws.ArgumentNullException);
         }
     }
 }

@@ -7,8 +7,10 @@
 *.suo
 *.cache
 *.pdb
+*.dll
 *.dll.refresh
 *.exe.manifest
+*.tmp
 bin/
 obj/
 
