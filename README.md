@@ -5,6 +5,10 @@ This repository is inspired by Mosh Hamedani's course which is Unit Testing for 
 
 https://www.udemy.com/course/unit-testing-csharp/
 
+I highly recommend you watch his course as it will help you understand all the topics below.
+
+I made this repository public as sample examples of how to write good unit tests.
+
 In this repository, we will handle the following topics:
 
 1) Getting Started:
