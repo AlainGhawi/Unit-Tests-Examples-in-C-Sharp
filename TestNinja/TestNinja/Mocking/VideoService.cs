@@ -23,7 +23,7 @@ namespace TestNinja.Mocking
         //Constructor      
 
         private IFileReader _fileReader;
-        public VideoService(IFileReader fileReader = null) => _fileReader = fileReader ?? new FileReader();
+        public VideoService(IFileReader fileReader = null) => _fileReader = fileReader;
 
         public string ReadVideoTitle()
         {

@@ -60,3 +60,11 @@ C:\work\training\c#\Unit testing\UnitTests\TestNinja\TestNinja.UnitTests\obj\Deb
 C:\work\training\c#\Unit testing\UnitTests\TestNinja\TestNinja.UnitTests\obj\Debug\TestNinja.UnitTests.csproj.CopyComplete
 C:\work\training\c#\Unit testing\UnitTests\TestNinja\TestNinja.UnitTests\obj\Debug\TestNinja.UnitTests.dll
 C:\work\training\c#\Unit testing\UnitTests\TestNinja\TestNinja.UnitTests\obj\Debug\TestNinja.UnitTests.pdb
+C:\work\training\c#\Unit testing\UnitTests\TestNinja\TestNinja.UnitTests\bin\Debug\Castle.Core.dll
+C:\work\training\c#\Unit testing\UnitTests\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.dll
+C:\work\training\c#\Unit testing\UnitTests\TestNinja\TestNinja.UnitTests\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\work\training\c#\Unit testing\UnitTests\TestNinja\TestNinja.UnitTests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\work\training\c#\Unit testing\UnitTests\TestNinja\TestNinja.UnitTests\bin\Debug\Castle.Core.xml
+C:\work\training\c#\Unit testing\UnitTests\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.xml
+C:\work\training\c#\Unit testing\UnitTests\TestNinja\TestNinja.UnitTests\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\work\training\c#\Unit testing\UnitTests\TestNinja\TestNinja.UnitTests\bin\Debug\System.Threading.Tasks.Extensions.xml
