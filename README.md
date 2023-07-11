@@ -29,3 +29,17 @@ c- SetUp and TearDown
 
 d- Parameterized Tests in NUnit
 
+3) Core Unit Testing Techniques:
+
+a- Testing Strings (e.g. in the HtmlFormatterTests.cs)
+
+b- Testing Arrays and Collections (e.g. in the MathTests.cs) 
+
+c- Testing the Return Type of Methods (e.g. in the CustomerControllerTests.cs)
+
+d- Testing Void Methods (e.g. in the ErrorLoggerTests.cs)
+
+e- Testing Methods that Throw Exceptions (e.g. in the ErrorLoggerTests.cs, StackTests.cs, and DemeritPointsCalculatorTests.cs)
+
+f- Testing Methods that Raise an Event (e.g. in the ErrorLoggerTests.cs)
+

@@ -7,6 +7,12 @@ namespace TestNinja.UnitTests
     [TestFixture]
     public class StackTests
     {
+        [Test]
+        public void Count_EmptyStack_ReturnsZero()
+        {
+            var stack = new Stack<string>();
+            Assert.AreEqual(0, stack.Count);
+        }
 
         [Test]
         public void Push_NullObject_ThrowsArgumentNullException()
