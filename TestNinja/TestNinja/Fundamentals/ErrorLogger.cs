@@ -1,11 +1,12 @@
-﻿
-using System;
+﻿using System;
 
 namespace TestNinja.Fundamentals
 {
     public class ErrorLogger
     {
         public string LastError { get; set; }
+
+        private Guid _errorId;
 
         public event EventHandler<Guid> ErrorLogged; 
         
@@ -14,12 +15,17 @@ namespace TestNinja.Fundamentals
             if (String.IsNullOrWhiteSpace(error))
                 throw new ArgumentNullException();
                 
-            LastError = error; 
-            
+            LastError = error;
+
             // Write the log to a storage
             // ...
+            _errorId = Guid.NewGuid();
+            OnErrorLogged();
+        }
 
-            ErrorLogged?.Invoke(this, Guid.NewGuid());
+        public virtual void OnErrorLogged() 
+        {
+            ErrorLogged?.Invoke(this, _errorId);
         }
     }
 }

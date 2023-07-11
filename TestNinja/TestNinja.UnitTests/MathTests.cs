@@ -1,5 +1,4 @@
 ﻿using NUnit.Framework;
-using System.Linq;
 using TestNinja.Fundamentals;
 
 namespace TestNinja.UnitTests

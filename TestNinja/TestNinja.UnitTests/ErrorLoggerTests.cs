@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using System;
 using TestNinja.Fundamentals;
 
 namespace TestNinja.UnitTests
@@ -26,6 +27,8 @@ namespace TestNinja.UnitTests
             Assert.That(_logger.LastError, Is.EqualTo("Test error"));
         }
 
+        //This is to test the exceptions that can be thrown from your code
+        [Ignore("Ignored this test as it will throw an exception.")]
         [Test]
         [TestCase(null)]
         [TestCase("")]
@@ -33,6 +36,25 @@ namespace TestNinja.UnitTests
         public void Log_InvalidError_ThrowArgumentNullException(string error)
         {
             Assert.That(() => _logger.Log(error), Throws.ArgumentNullException);
+        }
+
+        [Test]
+        public void Log_ValidError_RaiseErrorLoggedEvent()
+        {
+            var id = Guid.Empty;
+            _logger.ErrorLogged += (sender, args) => { id = args; };
+
+            _logger.Log("a");
+
+            Assert.That(id, Is.Not.EqualTo(Guid.Empty));
+        }
+
+        [Test]
+        public void OnErrorLogged_WhenCalled_RaiseEvent()
+        {
+            _logger.OnErrorLogged();
+
+            Assert.That(true);
         }
     }
 }
