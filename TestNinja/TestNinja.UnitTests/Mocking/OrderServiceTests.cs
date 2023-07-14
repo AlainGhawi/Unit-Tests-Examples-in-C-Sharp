@@ -8,7 +8,7 @@ namespace TestNinja.UnitTests.Mocking
     public class OrderServiceTests
     {
         [Test]
-        public void PlaceOrer_WhenCalled_ShouldStoreTheOrder()
+        public void PlaceOrder_WhenCalled_ShouldStoreTheOrder()
         {
             var storage = new Mock<IStorage>();
             var orderService = new OrderService(storage.Object);

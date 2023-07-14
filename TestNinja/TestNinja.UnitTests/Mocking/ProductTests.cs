@@ -7,7 +7,7 @@ namespace TestNinja.UnitTests.Mocking
     internal class ProductTests
     {
         [Test]
-        public void GetPrice_ForGoldCustomer_ShouldApply30PercentDiscount()
+        public void GetPrice_GoldCustomer_ShouldApply30PercentDiscount()
         {
             var product = new Product { ListPrice = 100 };
 
