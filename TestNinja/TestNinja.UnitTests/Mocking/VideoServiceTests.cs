@@ -25,5 +25,11 @@ namespace TestNinja.UnitTests.Mocking
 
             Assert.That(result, Does.Contain("error").IgnoreCase);
         }
+
+        [Test]
+        public void GetUnprocessedVideosAsCsv_NoUn()
+        {
+
+        }
     }
 }
