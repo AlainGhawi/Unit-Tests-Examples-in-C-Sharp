@@ -64,8 +64,10 @@
     <Compile Include="Fundamentals\Stack.cs" />
     <Compile Include="Mocking\BookingHelper.cs" />
     <Compile Include="Mocking\EmployeeController.cs" />
+    <Compile Include="Mocking\EmployeeStorage.cs" />
     <Compile Include="Mocking\FileDownloader.cs" />
     <Compile Include="Mocking\FileReader.cs" />
+    <Compile Include="Mocking\Interface\IEmployeeStorage.cs" />
     <Compile Include="Mocking\Interface\IFileDownloader.cs" />
     <Compile Include="Mocking\Interface\IFileReader.cs" />
     <Compile Include="Mocking\InstallerHelper.cs" />
