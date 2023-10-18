@@ -4,11 +4,19 @@
     {
         public User MadeBy { get; set; }
 
-        public bool CanBeCancelledBy(User user)
+        public virtual bool CanBeCancelledBy(User user)
         {
             return user.IsAdmin || MadeBy == user;
         }
 
+    }
+
+    public class HotelReservation : Reservation
+    {
+        public bool CanBeCancelledBy(User user)
+        {
+            return user.IsAdmin;
+        }
     }
 
     public class User

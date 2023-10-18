@@ -22,7 +22,7 @@ namespace TestNinja.UnitTests
         {
             //Arrange
             var user = new User();
-            var reservation = new Reservation { MadeBy = user};
+            var reservation = new HotelReservation { MadeBy = user};
             //Act
             var result = reservation.CanBeCancelledBy(user);
             //Assert

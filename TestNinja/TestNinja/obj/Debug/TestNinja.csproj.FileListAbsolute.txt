@@ -43,3 +43,19 @@ C:\work\training\c#\Unit testing\UnitTests\TestNinja\TestNinja\obj\Debug\TestNin
 C:\work\training\c#\Unit testing\UnitTests\TestNinja\TestNinja\obj\Debug\TestNinja.csproj.CopyComplete
 C:\work\training\c#\Unit testing\UnitTests\TestNinja\TestNinja\obj\Debug\TestNinja.dll
 C:\work\training\c#\Unit testing\UnitTests\TestNinja\TestNinja\obj\Debug\TestNinja.pdb
+C:\work\training\Technical skills\c#\Unit testing\UnitTests\TestNinja\TestNinja\bin\Debug\TestNinja.dll.config
+C:\work\training\Technical skills\c#\Unit testing\UnitTests\TestNinja\TestNinja\bin\Debug\TestNinja.dll
+C:\work\training\Technical skills\c#\Unit testing\UnitTests\TestNinja\TestNinja\bin\Debug\TestNinja.pdb
+C:\work\training\Technical skills\c#\Unit testing\UnitTests\TestNinja\TestNinja\bin\Debug\EntityFramework.dll
+C:\work\training\Technical skills\c#\Unit testing\UnitTests\TestNinja\TestNinja\bin\Debug\EntityFramework.SqlServer.dll
+C:\work\training\Technical skills\c#\Unit testing\UnitTests\TestNinja\TestNinja\bin\Debug\Newtonsoft.Json.dll
+C:\work\training\Technical skills\c#\Unit testing\UnitTests\TestNinja\TestNinja\bin\Debug\nunit.framework.dll
+C:\work\training\Technical skills\c#\Unit testing\UnitTests\TestNinja\TestNinja\bin\Debug\EntityFramework.xml
+C:\work\training\Technical skills\c#\Unit testing\UnitTests\TestNinja\TestNinja\bin\Debug\EntityFramework.SqlServer.xml
+C:\work\training\Technical skills\c#\Unit testing\UnitTests\TestNinja\TestNinja\bin\Debug\Newtonsoft.Json.xml
+C:\work\training\Technical skills\c#\Unit testing\UnitTests\TestNinja\TestNinja\bin\Debug\nunit.framework.xml
+C:\work\training\Technical skills\c#\Unit testing\UnitTests\TestNinja\TestNinja\obj\Debug\TestNinja.csproj.AssemblyReference.cache
+C:\work\training\Technical skills\c#\Unit testing\UnitTests\TestNinja\TestNinja\obj\Debug\TestNinja.csproj.CoreCompileInputs.cache
+C:\work\training\Technical skills\c#\Unit testing\UnitTests\TestNinja\TestNinja\obj\Debug\TestNinja.csproj.CopyComplete
+C:\work\training\Technical skills\c#\Unit testing\UnitTests\TestNinja\TestNinja\obj\Debug\TestNinja.dll
+C:\work\training\Technical skills\c#\Unit testing\UnitTests\TestNinja\TestNinja\obj\Debug\TestNinja.pdb
